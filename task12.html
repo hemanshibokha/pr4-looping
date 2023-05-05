@@ -1,0 +1,22 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter a number:  "));
+
+    var i=2;
+    var check = 0;
+
+    while(i<a){
+        if(a % i == 0){
+            check = 1;
+        }
+        i++;
+    }
+
+    if(check == 1){
+        console.log("not prime");
+    }
+    else{
+        console.log("prime");
+    }
+
+</script>
